@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>TODO LIST</h1>
+    <div id="container">
+      <div class="todo">
+        <form action="" id="form-field">
+          <input type="text" id="input" placeholder="Enter your todo" />
+          <button id="add">Add</button>
+        </form>
+
+        <h2>TODO'S</h2>
+
+        <div id="task-list">
+          <ul id="added"></ul>
+        </div>
+        <input
+          type="button"
+          value="Remove All"
+          class="delete"
+          onclick="removeAll()"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
